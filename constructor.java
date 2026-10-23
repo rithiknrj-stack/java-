@@ -5,7 +5,6 @@ public class constructor {
   public constructor(String n,int a){
     name=n;
     age=a;
-
   }
   public static void main(String[] args){
   constructor cons=new constructor("rithik",21);
@@ -17,10 +16,6 @@ public class constructor {
    constructor cons2=new constructor("Twin Babies",1);
   System.out.println("person name :"+cons2.name);
   System.out.println("person age :" +cons2.age);
-  
-
-
-
   }
     
 }
